@@ -4,7 +4,7 @@ jobs:
     machine:
       image: ubuntu-2004:202104-01
     resource_class: large
-    paralellism : 10
+    paralellism: 10
     steps:
       - run: 
          name: "starting"
@@ -27,7 +27,7 @@ jobs:
     machine:
       image: ubuntu-2004:202104-01
     resource_class: large
-    paralellism : 10
+    paralellism: 10
     steps:
       - run: 
          name: "starting"
@@ -50,7 +50,7 @@ jobs:
     machine:
       image: ubuntu-2004:202104-01
     resource_class: large
-    paralellism : 10
+    paralellism: 10
     steps:
       - run: 
          name: "starting"
